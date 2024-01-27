@@ -14,4 +14,4 @@ Ogni membro ha le informazioni necessarie per stampare le relative informazioni:
   - Nome
   - Ruolo
   - String della foto
-- Creare una funzione dove definiamo il contenuto HTML per stampare in DOM ciò che prima abbiamo stampato in console.
+- Creare una funzione dove definiamo il contenuto HTML per stampare in DOM ciò che prima abbiamo stampato in console
