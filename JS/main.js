@@ -30,3 +30,21 @@ const team = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+const cellTable = document.getElementById("team-table");
+
+/* TOWARDS CONSOLE */
+for (let member of team) {
+  console.table(member);
+
+  /* TOWARDS DOM */
+  const cellMember = `
+    <div class="col-4">  
+      <div class="card text-center">      
+        <img src="./img/${member.image}" class="border p-1" alt="">      
+        <b>Nome: </b> ${member.name}
+        <b>Rolo: </b>${member.role}
+      </div>
+    </div>`;
+  cellTable.innerHTML += cellMember;
+}
