@@ -43,7 +43,7 @@ for (let member of team) {
       <div class="card text-center p-3 my-3">      
         <img src="./img/${member.image}" class="border p-1" alt="">      
         <ul>
-        <li><span>Nome: </span> ${member.name}</li>
+        <li><span><h5 class="my-2">Nome: </span> ${member.name}</h5></li>
         <li><span>Ruolo: </span>${member.role}</li>
         </ul>
       </div>
