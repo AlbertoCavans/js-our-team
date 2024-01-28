@@ -40,10 +40,12 @@ for (let member of team) {
   /* TOWARDS DOM */
   const cellMember = `
     <div class="col-4">  
-      <div class="card text-center">      
+      <div class="card text-center p-3 my-3">      
         <img src="./img/${member.image}" class="border p-1" alt="">      
-        <b>Nome: </b> ${member.name}
-        <b>Rolo: </b>${member.role}
+        <ul>
+        <li><span>Nome: </span> ${member.name}</li>
+        <li><span>Ruolo: </span>${member.role}</li>
+        </ul>
       </div>
     </div>`;
   cellTable.innerHTML += cellMember;
