@@ -13,9 +13,6 @@ img {
   max-width: 100%;
 }
 
-ul {
-  list-style: none;
-}
 
 li {
   display: inline-block;
@@ -49,3 +46,7 @@ DEBUG---------------------------------------------------------
   border: 3px dashed red;
 }
  */
+
+ul {
+  list-style: none;
+}
